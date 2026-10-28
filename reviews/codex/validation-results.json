@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-25",
+  "scope": "CR-001 document structure/metadata and destructive validator fixtures only",
+  "base_commit": "3952a1cb5d950240374a641c4876fd37846f5a13",
+  "result_commit": "Git commit containing this file; no recursive self-SHA",
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "checks": [
+    {
+      "command": "python3 scripts/check_design.py",
+      "exit_code": 0,
+      "stdout": "PASS: design structure {'requirements': 27, 'test_plans': 37, 'screens': 11}\nLIMIT: no runtime, UX, safety, reviewer identity or human acceptance verified\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 scripts/check_review_gate.py",
+      "exit_code": 0,
+      "stdout": "PASS: review metadata {'phase': 'codex_review_recorded', 'human_acceptance': 'pending', 'design_approval': 'pending'}\nLIMIT: artifact shape only; identity, independence, PoC and approval authenticity not verified\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts -p test_design_checks.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.611s\n\nOK\n"
+    }
+  ],
+  "runtime_poc": "not_run",
+  "claude_started": false,
+  "application_implementation_started": false,
+  "human_design_acceptance": "pending"
+}

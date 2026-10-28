@@ -1,0 +1,33 @@
+{
+  "reviewed_commit": "edcebcc650ec123913ac0407daa32aa2055349a5",
+  "review_round": 2,
+  "source": "GitHub connector, fixed commit; all 49 Git blobs verified",
+  "cli_version": "codex-cli 0.163.0-alpha.11",
+  "session_id": "01a1716c-6fa8-74f3-b2e4-07032100a477",
+  "execution_method": "line-numbered full source via stdin; CLI tools not invoked",
+  "exit_code": 0,
+  "terminal_event": {
+    "type": "turn.completed",
+    "usage": {
+      "input_tokens": 83130,
+      "cached_input_tokens": 13184,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 10563,
+      "reasoning_output_tokens": 126
+    }
+  },
+  "input_sha256": "c8f02a43b0272a0681187629339239325b92feae9dbd84f8f76c46456dd894b6",
+  "cli_report_sha256": "c592b24b73caa8aeebc0098131d8c4bc2d6ae635c94b798a888f51ed5d970d1e",
+  "saved_report_sha256": "4e50b8f798b96a1fedb58da96c6349817329c017246aaab5fa23eeaf66cf6071",
+  "raw_cli_report": "reviews/codex/round-2/CLI_REVIEW_RAW.md",
+  "saved_report": "reviews/codex/REVIEW.md",
+  "source_manifest": "reviews/codex/round-2/source-manifest.json",
+  "parent_amendments": "R2-05 false claim refuted by fixtures; raw preserved; parent evidence added in section 8",
+  "external_submission_authorized": true,
+  "prior_auto_review_rejection": "serialization blocked until user explicitly authorized all 49 files and OpenAI Codex CLI destination",
+  "claude_started": false,
+  "application_implementation_started": false,
+  "runtime_poc": "not_run",
+  "human_acceptance": "pending",
+  "independence": "same Codex family; not independent counter-review"
+}
