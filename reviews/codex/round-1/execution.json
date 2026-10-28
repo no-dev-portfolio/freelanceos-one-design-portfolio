@@ -1,0 +1,40 @@
+{
+  "reviewed_commit": "f4847f32be8da16445c41749b43aeaeb80657415",
+  "source": "GitHub connector fetch_file pinned to commit; all 34 blobs SHA-1 verified",
+  "cli_version": "codex-cli 0.163.0-alpha.11",
+  "session_id": "01a17144-b1e4-73d0-a273-638fd2f11a18",
+  "execution_method": "All 34 repository text files supplied with line numbers through stdin; nested sandbox prevented direct file reads. Final extra blank line in input only; authoritative contents verified separately. No runtime PoC.",
+  "earlier_attempts": [
+    "Initial in-process app-server initialization failed: Operation not permitted",
+    "Session 01a17143-f914-7133-93dc-26a2b2471390 started but nested sandbox failed before reading files; not counted as completed review"
+  ],
+  "checks": [
+    {
+      "command": "python3 scripts/check_design.py",
+      "exit_code": 2,
+      "result": "No such file or directory"
+    },
+    {
+      "command": "python3 scripts/check_review_gate.py",
+      "exit_code": 2,
+      "result": "No such file or directory"
+    }
+  ],
+  "claude_started": false,
+  "application_implementation_started": false,
+  "human_disposition": "pending",
+  "review_state_changed": false,
+  "exit_code": 0,
+  "terminal_event": {
+    "type": "turn.completed",
+    "usage": {
+      "input_tokens": 38520,
+      "cached_input_tokens": 13184,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14246,
+      "reasoning_output_tokens": 79
+    }
+  },
+  "cli_report_sha256": "51a9fad387f2b9ddea882f0a49dd75534fd890c38e586c889f70fe73e0d84d42",
+  "input_sha256": "32e310a5223bae8ced7c6a45e2ef10be53335019a63ab5197c4693a4d6eb2a24"
+}

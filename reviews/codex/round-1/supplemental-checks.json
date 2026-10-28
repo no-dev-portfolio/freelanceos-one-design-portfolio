@@ -1,0 +1,15 @@
+{
+  "requirements": 27,
+  "requirements_test_ids": 27,
+  "plan_test_ids": 27,
+  "requirements_missing_trace": [],
+  "tests_missing_plan": [],
+  "missing_referenced_artifacts": [
+    "wireframes/prototype.html",
+    "scripts/check_design.py",
+    "scripts/check_review_gate.py",
+    "reviews/review-state.json",
+    "templates/CHANGE_REQUEST.md"
+  ],
+  "limitation": "Supplemental ID/inventory checks only; not repository checks or behavioral tests."
+}
