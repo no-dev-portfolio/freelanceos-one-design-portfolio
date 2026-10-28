@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "change_id": "CR-003",
+  "base_commit": "515fbc5921e5170f060a2dc157f278d7f8e1bfec",
+  "specification": "locally_updated_pending_review",
+  "human_policy_disposition": "pending",
+  "human_value_validation": "not_performed",
+  "formal_review_target_commit": "edcebcc650ec123913ac0407daa32aa2055349a5",
+  "post_implementation_tests": {
+    "count": 37,
+    "status": "not_run",
+    "register": "docs/06-quality/verification-register.json"
+  },
+  "application_implementation_authorized": false,
+  "runtime_acceptance": "pending",
+  "next": "Decide S/H thresholds and scope; run separately authorized feasibility work; review current source; obtain separate scoped I authorization",
+  "pre_implementation_feasibility": "not_run"
+}
