@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "screens": {
+    "SCR-00": [
+      {
+        "method": "POST",
+        "path": "/auth/pairing"
+      },
+      {
+        "method": "GET",
+        "path": "/auth/session"
+      },
+      {
+        "method": "GET",
+        "path": "/auth/csrf"
+      }
+    ],
+    "SCR-01": [
+      {
+        "method": "GET",
+        "path": "/jobs"
+      },
+      {
+        "method": "GET",
+        "path": "/approvals"
+      }
+    ],
+    "SCR-02": [
+      {
+        "method": "GET",
+        "path": "/jobs"
+      },
+      {
+        "method": "GET",
+        "path": "/jobs/{job_id}"
+      }
+    ],
+    "SCR-03": [
+      {
+        "method": "POST",
+        "path": "/jobs"
+      },
+      {
+        "method": "GET",
+        "path": "/jobs/{job_id}"
+      },
+      {
+        "method": "GET",
+        "path": "/jobs/{job_id}/events"
+      }
+    ],
+    "SCR-04": [
+      {
+        "method": "GET",
+        "path": "/knowledge/search"
+      }
+    ],
+    "SCR-05": [
+      {
+        "method": "GET",
+        "path": "/knowledge/{note_id}"
+      },
+      {
+        "method": "GET",
+        "path": "/knowledge/candidates"
+      },
+      {
+        "method": "GET",
+        "path": "/knowledge/candidates/{id}"
+      }
+    ],
+    "SCR-06": [
+      {
+        "method": "GET",
+        "path": "/approvals"
+      }
+    ],
+    "SCR-07": [
+      {
+        "method": "GET",
+        "path": "/knowledge/candidates/{id}"
+      },
+      {
+        "method": "POST",
+        "path": "/approvals/{id}/decision"
+      }
+    ],
+    "SCR-08": [
+      {
+        "method": "GET",
+        "path": "/jobs/{job_id}/events"
+      },
+      {
+        "method": "POST",
+        "path": "/exports"
+      }
+    ],
+    "SCR-09": [
+      {
+        "method": "GET",
+        "path": "/settings"
+      },
+      {
+        "method": "PATCH",
+        "path": "/settings"
+      },
+      {
+        "method": "GET",
+        "path": "/consents"
+      },
+      {
+        "method": "GET",
+        "path": "/auth/sessions"
+      },
+      {
+        "method": "DELETE",
+        "path": "/auth/sessions/{id}"
+      },
+      {
+        "method": "POST",
+        "path": "/auth/session/refresh"
+      },
+      {
+        "method": "DELETE",
+        "path": "/auth/session"
+      }
+    ],
+    "SCR-10": [
+      {
+        "method": "GET",
+        "path": "/evaluation-runs/{id}"
+      },
+      {
+        "method": "POST",
+        "path": "/evaluation-runs"
+      }
+    ]
+  }
+}
