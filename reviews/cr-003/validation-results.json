@@ -1,0 +1,20 @@
+[
+  {
+    "command": "python3 scripts/check_design.py",
+    "exit_code": 0,
+    "stdout": "PASS: design structure {'requirements': 28, 'test_plans': 37, 'screens': 11}\nLIMIT: no runtime, UX, safety, reviewer identity or human acceptance verified\n",
+    "stderr": ""
+  },
+  {
+    "command": "python3 scripts/check_review_gate.py",
+    "exit_code": 0,
+    "stdout": "WARN: REVIEW_SOURCE_DRIFT: historical reviewed commit edcebcc650ec123913ac0407daa32aa2055349a5; 32 reviewed files differ/missing; 12 new source files. Current source is not covered by this review; fresh review required before approval.\nPASS: review metadata and artifact binding {'phase': 'codex_review_recorded', 'human_acceptance': 'pending', 'design_approval': 'pending'}\nLIMIT: no identity, independence, approval authenticity or runtime safety verified\n",
+    "stderr": ""
+  },
+  {
+    "command": "python3 scripts/test_design_checks.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "...................................................\n----------------------------------------------------------------------\nRan 51 tests in 4.980s\n\nOK\n"
+  }
+]
