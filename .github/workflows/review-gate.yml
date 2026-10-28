@@ -1,0 +1,14 @@
+name: Review sequencing gate
+on:
+  push:
+  pull_request:
+jobs:
+  review-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 scripts/check_design.py
+      - run: python3 scripts/check_review_gate.py
