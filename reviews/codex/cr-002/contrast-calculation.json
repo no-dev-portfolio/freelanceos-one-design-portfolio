@@ -1,0 +1,246 @@
+{
+  "scope": "Static token calculation only, no rendered UI/WCAG conformance claim",
+  "formula": "sRGB linearization; luminance .2126R+.7152G+.0722B; (Lmax+.05)/(Lmin+.05)",
+  "results": [
+    {
+      "mode": "Light",
+      "foreground_token": "text",
+      "foreground": "#182235",
+      "background_token": "background",
+      "background": "#F6F8FB",
+      "contrast": 14.964,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "text",
+      "foreground": "#182235",
+      "background_token": "surface",
+      "background": "#FFFFFF",
+      "contrast": 15.92,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "muted",
+      "foreground": "#526176",
+      "background_token": "background",
+      "background": "#F6F8FB",
+      "contrast": 5.927,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "muted",
+      "foreground": "#526176",
+      "background_token": "surface",
+      "background": "#FFFFFF",
+      "contrast": 6.306,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "primary",
+      "foreground": "#225EA8",
+      "background_token": "background",
+      "background": "#F6F8FB",
+      "contrast": 6.102,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "primary",
+      "foreground": "#225EA8",
+      "background_token": "surface",
+      "background": "#FFFFFF",
+      "contrast": 6.492,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "positive",
+      "foreground": "#16724D",
+      "background_token": "background",
+      "background": "#F6F8FB",
+      "contrast": 5.563,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "positive",
+      "foreground": "#16724D",
+      "background_token": "surface",
+      "background": "#FFFFFF",
+      "contrast": 5.918,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "warning",
+      "foreground": "#9A6016",
+      "background_token": "background",
+      "background": "#F6F8FB",
+      "contrast": 4.863,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "warning",
+      "foreground": "#9A6016",
+      "background_token": "surface",
+      "background": "#FFFFFF",
+      "contrast": 5.174,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "critical",
+      "foreground": "#B13535",
+      "background_token": "background",
+      "background": "#F6F8FB",
+      "contrast": 5.755,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Light",
+      "foreground_token": "critical",
+      "foreground": "#B13535",
+      "background_token": "surface",
+      "background": "#FFFFFF",
+      "contrast": 6.122,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "text",
+      "foreground": "#F3F4F6",
+      "background_token": "background",
+      "background": "#111827",
+      "contrast": 16.119,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "text",
+      "foreground": "#F3F4F6",
+      "background_token": "surface",
+      "background": "#1F2937",
+      "contrast": 13.338,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "muted",
+      "foreground": "#CBD5E1",
+      "background_token": "background",
+      "background": "#111827",
+      "contrast": 11.948,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "muted",
+      "foreground": "#CBD5E1",
+      "background_token": "surface",
+      "background": "#1F2937",
+      "contrast": 9.887,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "primary",
+      "foreground": "#7AB4F5",
+      "background_token": "background",
+      "background": "#111827",
+      "contrast": 8.173,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "primary",
+      "foreground": "#7AB4F5",
+      "background_token": "surface",
+      "background": "#1F2937",
+      "contrast": 6.763,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "positive",
+      "foreground": "#5BD3A0",
+      "background_token": "background",
+      "background": "#111827",
+      "contrast": 9.52,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "positive",
+      "foreground": "#5BD3A0",
+      "background_token": "surface",
+      "background": "#1F2937",
+      "contrast": 7.878,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "warning",
+      "foreground": "#F4C16F",
+      "background_token": "background",
+      "background": "#111827",
+      "contrast": 10.732,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "warning",
+      "foreground": "#F4C16F",
+      "background_token": "surface",
+      "background": "#1F2937",
+      "contrast": 8.88,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "critical",
+      "foreground": "#FF8585",
+      "background_token": "background",
+      "background": "#111827",
+      "contrast": 7.557,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    },
+    {
+      "mode": "Dark",
+      "foreground_token": "critical",
+      "foreground": "#FF8585",
+      "background_token": "surface",
+      "background": "#1F2937",
+      "contrast": 6.253,
+      "candidate_minimum": 4.5,
+      "meets_candidate": true
+    }
+  ]
+}

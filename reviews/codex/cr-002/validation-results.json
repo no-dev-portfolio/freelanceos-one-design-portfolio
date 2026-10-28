@@ -1,0 +1,37 @@
+{
+  "change_id": "CR-002",
+  "base_commit": "6977c21930b2541b27bfc9b47468c9423ef2a2c8",
+  "result_commit": "Git commit/PR head containing this file",
+  "date": "2026-10-25",
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "checks": [
+    {
+      "command": "python3 scripts/check_design.py",
+      "exit_code": 0,
+      "stdout": "PASS: design structure {'requirements': 27, 'test_plans': 37, 'screens': 11}\nLIMIT: no runtime, UX, safety, reviewer identity or human acceptance verified\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 scripts/check_review_gate.py",
+      "exit_code": 0,
+      "stdout": "PASS: review metadata and artifact binding {'phase': 'codex_review_recorded', 'human_acceptance': 'pending', 'design_approval': 'pending'}\nLIMIT: no identity, independence, approval authenticity or runtime safety verified\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts -p test_design_checks.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "............................\n----------------------------------------------------------------------\nRan 28 tests in 2.126s\n\nOK\n"
+    }
+  ],
+  "preserved_review_evidence_files": 18,
+  "runtime_test_plans": 37,
+  "runtime_tests_executed": 0,
+  "application_implementation_started": false,
+  "claude_started": false,
+  "formal_new_cli_review": "not performed for CR-002",
+  "human_policy_disposition": "pending",
+  "static_cases": "15 case paths in EXECUTION_CONTRACTS + rendering cases reviewed as document logic only",
+  "contrast": "24 candidate token pairs, minimum 4.863, no full UI/WCAG conformity claim"
+}
