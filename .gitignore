@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+node_modules/
+.vscode/
+.idea/
+.vault-private/
+*.key
+*.pem
+*.db
+*.sqlite
