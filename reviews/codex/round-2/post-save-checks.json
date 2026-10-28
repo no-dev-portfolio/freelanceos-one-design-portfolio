@@ -1,0 +1,26 @@
+{
+  "reviewed_commit": "edcebcc650ec123913ac0407daa32aa2055349a5",
+  "phase": "after Round 2 report/archive/state/governance saved, before Git commit",
+  "checks": [
+    {
+      "command": "python3 scripts/check_design.py",
+      "exit_code": 0,
+      "stdout": "PASS: design structure {'requirements': 27, 'test_plans': 37, 'screens': 11}\nLIMIT: no runtime, UX, safety, reviewer identity or human acceptance verified\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 scripts/check_review_gate.py",
+      "exit_code": 0,
+      "stdout": "PASS: review metadata {'phase': 'codex_review_recorded', 'human_acceptance': 'pending', 'design_approval': 'pending'}\nLIMIT: artifact shape only; identity, independence, PoC and approval authenticity not verified\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts -p 'test_design_checks.py'",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.710s\n\nOK\n"
+    }
+  ],
+  "history_and_scope": "All 4 Round 1 archives byte-identical; core product designs and validator code unchanged",
+  "probe_results": "6 additional temporary fixtures: 2 correctly rejected, 4 incorrect variants not detected. Not product PoC."
+}

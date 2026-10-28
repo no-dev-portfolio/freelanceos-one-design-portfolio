@@ -1,0 +1,24 @@
+[
+  {
+    "probe": "mismatched_requirement_primary_tests",
+    "fixture_only": true,
+    "detected": false,
+    "errors": [],
+    "counts": {
+      "requirements": 27,
+      "test_plans": 37,
+      "screens": 11
+    }
+  },
+  {
+    "probe": "undefined_screen_in_shorthand",
+    "fixture_only": true,
+    "detected": false,
+    "errors": [],
+    "counts": {
+      "requirements": 27,
+      "test_plans": 37,
+      "screens": 11
+    }
+  }
+]

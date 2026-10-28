@@ -1,0 +1,52 @@
+[
+  {
+    "probe": "claude_complete_false_null",
+    "fixture_only": true,
+    "detected": true,
+    "errors": [
+      "artifact reference missing",
+      "artifact reference missing",
+      "Claude baseline commit required"
+    ],
+    "summary": {
+      "phase": "claude_complete",
+      "human_acceptance": "accepted",
+      "design_approval": "pending"
+    }
+  },
+  {
+    "probe": "claude_complete_false_with_refs",
+    "fixture_only": true,
+    "detected": true,
+    "errors": [
+      "Claude evidence present but start is false"
+    ],
+    "summary": {
+      "phase": "claude_complete",
+      "human_acceptance": "accepted",
+      "design_approval": "pending"
+    }
+  },
+  {
+    "probe": "claude_started_in_recorded_phase",
+    "fixture_only": true,
+    "detected": false,
+    "errors": [],
+    "summary": {
+      "phase": "codex_review_recorded",
+      "human_acceptance": "accepted",
+      "design_approval": "pending"
+    }
+  },
+  {
+    "probe": "round2_body_with_old_commit_in_history",
+    "fixture_only": true,
+    "detected": false,
+    "errors": [],
+    "summary": {
+      "phase": "codex_review_recorded",
+      "human_acceptance": "pending",
+      "design_approval": "pending"
+    }
+  }
+]
