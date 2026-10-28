@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "active_round": 2,
+  "reviewed_commit": "edcebcc650ec123913ac0407daa32aa2055349a5",
+  "cli_session_id": "01a1716c-6fa8-74f3-b2e4-07032100a477",
+  "artifacts": {
+    "report": {
+      "path": "reviews/codex/REVIEW.md",
+      "sha256": "4e50b8f798b96a1fedb58da96c6349817329c017246aaab5fa23eeaf66cf6071"
+    },
+    "raw_cli": {
+      "path": "reviews/codex/round-2/CLI_REVIEW_RAW.md",
+      "sha256": "c592b24b73caa8aeebc0098131d8c4bc2d6ae635c94b798a888f51ed5d970d1e"
+    },
+    "execution": {
+      "path": "reviews/codex/execution.json",
+      "sha256": "d7438f498847f5d1be4fa82896d7fcc7a9bfcb6c4799c09d62075b7100ddac5e"
+    },
+    "source_manifest": {
+      "path": "reviews/codex/round-2/source-manifest.json",
+      "sha256": "c3fb1cd1458e2f75bbcc88d37557491d1a848dc6b8949d1047dfcfafa13409f4"
+    }
+  },
+  "limitation": "Checksums bind artifacts and metadata, not reviewer identity, independence or human approval authenticity. Current CR-002 design is not yet formally re-reviewed."
+}

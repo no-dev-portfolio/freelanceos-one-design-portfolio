@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "phase": "codex_review_recorded",
+  "reviewed_commit": "edcebcc650ec123913ac0407daa32aa2055349a5",
+  "review_artifact": "reviews/codex/REVIEW.md",
+  "execution_artifact": "reviews/codex/execution.json",
+  "remediation_artifact": "reviews/codex/REMEDIATION.md",
+  "remediation_status": "proposed",
+  "human_acceptance": "pending",
+  "human_acceptance_ref": null,
+  "claude_started": false,
+  "claude_artifact": null,
+  "claude_execution_ref": null,
+  "claude_reviewed_commit": null,
+  "implementation_authorized": false,
+  "design_approval": "pending",
+  "design_approval_ref": null
+}
