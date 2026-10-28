@@ -1,0 +1,1479 @@
+{
+  "schema_version": 1,
+  "change_id": "CR-003",
+  "application_implementation_authorized": false,
+  "runtime_acceptance": "pending",
+  "items": [
+    {
+      "test_id": "TEST-UX-001",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "UI操作/a11y",
+      "requirement_ids": [
+        "REQ-UX-001"
+      ],
+      "scenario": "今日→仕事→知識、画面移動",
+      "expected": "目的の画面へ迷わず到達",
+      "subcases": [],
+      "owner_role": "ux_reviewer",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/SCREEN_SPEC.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-UX-002",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "UI操作/a11y",
+      "requirement_ids": [
+        "REQ-UX-002"
+      ],
+      "scenario": "AI処理中断・再読込",
+      "expected": "状態/成果物が消えない",
+      "subcases": [],
+      "owner_role": "ux_reviewer",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/SCREEN_SPEC.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-UX-003",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "UI操作/a11y",
+      "requirement_ids": [
+        "REQ-UX-003"
+      ],
+      "scenario": "重要なノート更新の承認",
+      "expected": "差分・根拠・適用範囲が明確",
+      "subcases": [],
+      "owner_role": "ux_reviewer",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/SCREEN_SPEC.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-UX-004",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "UI操作/a11y",
+      "requirement_ids": [
+        "REQ-UX-004"
+      ],
+      "scenario": "初回空状態・障害・ネット切断",
+      "expected": "次にすべき操作が分かる",
+      "subcases": [],
+      "owner_role": "ux_reviewer",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/SCREEN_SPEC.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-UX-005",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "UI操作/a11y",
+      "requirement_ids": [
+        "REQ-UX-005"
+      ],
+      "scenario": "キーボード・拡大・スクリーンリーダー",
+      "expected": "WCAG目標に沿う",
+      "subcases": [],
+      "owner_role": "ux_reviewer",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/SCREEN_SPEC.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-001",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-001"
+      ],
+      "scenario": "Vault外ファイル・symlinkへのアクセス",
+      "expected": "拒否・記録",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-002",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-002"
+      ],
+      "scenario": "ノート版を手作業変更",
+      "expected": "hash不整合検出、検証状態再評価",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-003",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-003"
+      ],
+      "scenario": "機密/失効ノートを検索",
+      "expected": "許可なしに返さない",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-004",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Verified memory",
+      "requirement_ids": [
+        "REQ-KB-004"
+      ],
+      "scenario": "人が候補承認のみ実施",
+      "expected": "Verifiedへ自動遷移しない",
+      "subcases": [
+        "TEST-KB-004.a",
+        "TEST-KB-004.b"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/EXECUTION_CONTRACTS.md",
+        "docs/04-knowledge/KNOWLEDGE_MODEL.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-005",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-005"
+      ],
+      "scenario": "同時編集の衝突",
+      "expected": "内容を上書きせずConflictへ",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-006",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-006"
+      ],
+      "scenario": "書込前/後にクラッシュ",
+      "expected": "再起動後に照合でき重複更新しない",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-007",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-007"
+      ],
+      "scenario": "ノート削除/隔離/権限変更",
+      "expected": "受付commit後の新公開を停止。検知gap/既送信限界を区別",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-008",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-008"
+      ],
+      "scenario": "回答の根拠を追跡",
+      "expected": "note/revision/引用場所が一致",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-009",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-009"
+      ],
+      "scenario": "矛盾する二知識を登録",
+      "expected": "自動統合せず比較候補作成",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-001",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow/egress",
+      "requirement_ids": [
+        "REQ-AI-001"
+      ],
+      "scenario": "ノート内にツール実行命令を埋込",
+      "expected": "命令を無視し許可ツールのみ",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-002",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow/egress",
+      "requirement_ids": [
+        "REQ-AI-002"
+      ],
+      "scenario": "Confidentialをクラウドへ送る指示",
+      "expected": "policy deny。FEASIBILITY_SPIKESで事前固定したlocal基準を実装環境で再試験。spikeの結果を統合試験へ流用しない",
+      "subcases": [
+        "TEST-AI-002.local"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-003",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow/egress",
+      "requirement_ids": [
+        "REQ-AI-003"
+      ],
+      "scenario": "無限ループ型のツール提案",
+      "expected": "上限で停止して状態保持",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-004",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow/egress",
+      "requirement_ids": [
+        "REQ-AI-004"
+      ],
+      "scenario": "承認後のpayload変更",
+      "expected": "承認失効、再審査",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-005",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow/egress",
+      "requirement_ids": [
+        "REQ-AI-005"
+      ],
+      "scenario": "外部ツールの結果不確定",
+      "expected": "無条件再送しない",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-006",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow/egress",
+      "requirement_ids": [
+        "REQ-AI-006"
+      ],
+      "scenario": "長時間SQL、更新SQL、意図しないschema",
+      "expected": "DB接続とQuery Guardで拒否",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-EVAL-001",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "知識効果の主張",
+      "requirement_ids": [
+        "REQ-EVAL-001"
+      ],
+      "scenario": "同一モデル・同一問題で記憶あり/なし",
+      "expected": "変動/劣化を記録",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/04-knowledge/GROWTH_EVALUATION.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-EVAL-002",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "知識効果の主張",
+      "requirement_ids": [
+        "REQ-EVAL-002"
+      ],
+      "scenario": "未見・矛盾・古い知識・注入",
+      "expected": "回答を根拠に校正",
+      "subcases": [
+        "TEST-EVAL-002.a"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/04-knowledge/GROWTH_EVALUATION.md",
+        "docs/03-architecture/EXECUTION_CONTRACTS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-EVAL-003",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "知識効果の主張",
+      "requirement_ids": [
+        "REQ-EVAL-003"
+      ],
+      "scenario": "AIレビュー工数の計測",
+      "expected": "人間の確認時間を記録",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/04-knowledge/GROWTH_EVALUATION.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-OPS-001",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "通常運用/復元",
+      "requirement_ids": [
+        "REQ-OPS-001"
+      ],
+      "scenario": "Vault破損から復元",
+      "expected": "定義したRPO/RTO内で復元（値はPoC後決定）",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-OPS-002",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "表示/export / 監査",
+      "requirement_ids": [
+        "REQ-OPS-002"
+      ],
+      "scenario": "ログ閲覧・エクスポート",
+      "expected": "機密の本文が漏れず追跡可能",
+      "subcases": [
+        "TEST-OPS-002.a"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/CONTENT_PRESENTATION.md",
+        "docs/03-architecture/DATA_MODEL.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-OPS-003",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "通常運用/復元",
+      "requirement_ids": [
+        "REQ-OPS-003"
+      ],
+      "scenario": "API予算上限到達",
+      "expected": "追加呼び出し停止・通知",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-BIZ-001",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "P1案件機能",
+      "requirement_ids": [
+        "REQ-BIZ-001"
+      ],
+      "scenario": "月額条件OK、出社NGの募集",
+      "expected": "必須条件NGとして除外",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/01-product/PRD.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-010",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault read/write/search",
+      "requirement_ids": [
+        "REQ-KB-001",
+        "REQ-KB-005",
+        "REQ-KB-006"
+      ],
+      "scenario": "APFS/同期方式別、hash読取直後/rename前後/DB確定前後に人保存とkill",
+      "expected": "非協調writerは適用拒否。協調環境でも無言消失0件、両本文とjournal/実機環境を保存。symlink差替え/属性/dir永続化も試験",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-011",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Vault write / workflow resume/fork",
+      "requirement_ids": [
+        "REQ-KB-003",
+        "REQ-KB-007",
+        "REQ-KB-008",
+        "REQ-OPS-001"
+      ],
+      "scenario": "取得後/生成中/公開permit前後/索引再構築/復元中に削除/ACL縮小",
+      "expected": "受付後に新permit0件、旧復元で再有効化0件。permit前後と既送信bufferの境界・未検知gapを記録",
+      "subcases": [
+        "TEST-KB-011.a"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md",
+        "docs/03-architecture/EXECUTION_CONTRACTS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-KB-012",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Verified memory / Vault read/search",
+      "requirement_ids": [
+        "REQ-KB-002",
+        "REQ-KB-004",
+        "REQ-KB-009"
+      ],
+      "scenario": "同一ID複製、旧ID、壊れたfrontmatter、未知状態、手動verified/public、古い証拠",
+      "expected": "隔離/deny、本文hashと検証対象一致、権限昇格0件、mapping dry-run保存",
+      "subcases": [
+        "TEST-KB-012.a",
+        "TEST-KB-012.b"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/EXECUTION_CONTRACTS.md",
+        "docs/04-knowledge/KNOWLEDGE_MODEL.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-007",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow/egress",
+      "requirement_ids": [
+        "REQ-AI-004",
+        "REQ-KB-005",
+        "REQ-UX-003"
+      ],
+      "scenario": "二重decision、期限境界、取消/claim競合、宛先/tool/policy変更",
+      "expected": "action当たり消費1回、claim前取消成功/後は不可逆表示、変更は再承認。transaction順序保存",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-008",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "workflow resume/fork / Vault write",
+      "requirement_ids": [
+        "REQ-AI-003",
+        "REQ-AI-005",
+        "REQ-KB-006",
+        "REQ-UX-002"
+      ],
+      "scenario": "副作用直後/DB記録前kill、旧worker復帰、並列resume、lease切れ",
+      "expected": "旧token結果拒否、不明の自動再送0件、成功step保持、新attemptと照合証拠保存",
+      "subcases": [
+        "TEST-AI-008.a",
+        "TEST-AI-008.b",
+        "TEST-AI-008.c"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/EXECUTION_CONTRACTS.md",
+        "docs/05-agent/AGENT_AND_TOOLS.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-AI-009",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "Cloud egress / 表示/export",
+      "requirement_ids": [
+        "REQ-AI-002",
+        "REQ-KB-003"
+      ],
+      "scenario": "添付/ノート/Embedding/ログ/error/telemetry/fallbackに未知・混在・非public",
+      "expected": "未許可egress0件、publicでも同意/宛先/期限/policy一致。架空canaryと通信観測保存",
+      "subcases": [
+        "TEST-AI-009.a",
+        "TEST-AI-009.b",
+        "TEST-AI-009.c",
+        "TEST-AI-009.d",
+        "TEST-AI-009.e",
+        "TEST-AI-009.f",
+        "TEST-AI-009.g"
+      ],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/EXECUTION_CONTRACTS.md",
+        "docs/02-ux/CONTENT_PRESENTATION.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-UX-006",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "UI操作/a11y",
+      "requirement_ids": [
+        "REQ-UX-003",
+        "REQ-UX-004",
+        "REQ-UX-005"
+      ],
+      "scenario": "承認中通信断、戻る/再読込、320px/拡大差分、競合merge",
+      "expected": "同operation照会、差分確認不可なら承認停止、新hash再承認。focus/読上げと操作記録",
+      "subcases": [],
+      "owner_role": "ux_reviewer",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/SCREEN_SPEC.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-SEC-001",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "表示/export / local認証",
+      "requirement_ids": [
+        "REQ-AI-001",
+        "REQ-KB-001",
+        "REQ-OPS-002",
+        "REQ-SEC-001"
+      ],
+      "scenario": "未認証/異Origin/異Host/CSRF/session失効、worker直書/パス差替え",
+      "expected": "拒否、secretなし、loopbackだけ、権限外file読書0件。設定と通信ログ秘匿保存。native未承認/コード再使用/期限切れ/異Origin/Host/CSRF欠落は拒否。refresh後の旧session/CSRF、logout/個別失効session再使用を拒否。agentのsession管理拒否、secretログ0件",
+      "subcases": [
+        "TEST-SEC-001.a",
+        "TEST-SEC-001.b",
+        "TEST-SEC-001.c",
+        "TEST-SEC-001.d",
+        "TEST-SEC-001.e"
+      ],
+      "owner_role": "security_reviewer",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/02-ux/CONTENT_PRESENTATION.md",
+        "docs/03-architecture/API_CONTRACT.md",
+        "docs/03-architecture/DATA_MODEL.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-OPS-004",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "通常運用/復元",
+      "requirement_ids": [
+        "REQ-AI-003",
+        "REQ-OPS-001",
+        "REQ-OPS-002",
+        "REQ-OPS-003"
+      ],
+      "scenario": "並列予算予約、料金不明、監査DB停止、鍵紛失、失効台帳欠落復元",
+      "expected": "新規高リスク発注停止、超過予約0件、復元隔離/deny。予約/照合/鍵復旧手順保存",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/03-architecture/SYSTEM_DESIGN.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    },
+    {
+      "test_id": "TEST-EVAL-004",
+      "timing": "post_implementation",
+      "status": "not_run",
+      "capability": "知識効果の主張",
+      "requirement_ids": [
+        "REQ-EVAL-001",
+        "REQ-EVAL-002",
+        "REQ-EVAL-003"
+      ],
+      "scenario": "言換え同系列を跨ぐsplit、条件間cache共有、採点後閾値変更",
+      "expected": "検出しrun無効、条件manifest固定、holdout隔離、独立系列CI、失敗込み分母",
+      "subcases": [],
+      "owner_role": "implementation_verifier",
+      "prerequisites": [
+        "explicit implementation authorization",
+        "implemented target scope",
+        "fixed implementation commit and environment",
+        "synthetic fixture and acceptance thresholds frozen"
+      ],
+      "environment_template": "OS/FS/Obsidian/sync/model/browser/tool versions as applicable",
+      "evidence_required": [
+        "target commit",
+        "fixture hash",
+        "steps and fault injection point",
+        "expected vs actual",
+        "exit/output and redacted evidence URI/hash",
+        "verifier and date",
+        "limitations"
+      ],
+      "design_return_paths": [
+        "docs/04-knowledge/GROWTH_EVALUATION.md"
+      ],
+      "on_failure": "Disable affected capability; keep failed attempt; reopen design/ADR and retest new commit",
+      "actual_result": null,
+      "executed_by": null,
+      "executed_at": null,
+      "evidence_refs": [],
+      "attempts": []
+    }
+  ],
+  "design_base_commit": "6977c21930b2541b27bfc9b47468c9423ef2a2c8"
+}
